@@ -84,44 +84,6 @@ document.querySelector('.start').addEventListener('click',()=>{
 
 
 
-// canvas.addEventListener('mousedown',()=>{drawing=true;ctx.beginPath();});
-// canvas.addEventListener('mouseup',()=>{drawing=false;ctx.closePath();});
-// canvas.addEventListener('mousemove',(e)=>{
-//     if(!drawing)return;
-//     if ( drawing && erese) {
-//         console.log("hay im runimg")
-//      ctx.globalCompositeOperation = "destination-out";//main line to erese line
-//      ctx.strokeStyle='gray' 
-//      ctx.lineCap = "round";
-//      ctx.lineWidth = 30;
-//      ctx.lineTo(e.clientX, e.clientY);
-//      ctx.stroke();
-//      ctx.beginPath();
-//      ctx.moveTo(e.clientX, e.clientY);
-   
-//     }
-//     ctx.lineWidth=5;//thickness of the line
-//     ctx.lineCap='round'; //for smooth edges
-//     ctx.strokeStyle='black';//color of the line
-//     ctx.lineTo(e.clientX,e.clientY);//draw line to the mouse pointer
-//     ctx.stroke(); //draw the line
-//     ctx.beginPath(); //begin a new path
-//     ctx.moveTo(e.clientX,e.clientY);//move the path to the mouse pointer
-// });
-
-// window.addEventListener('resize',()=>{
-//     const imgData=ctx.getImageData(0,0,canvas.width,canvas.height);//
-//     canvas.width=window.innerWidth;
-//     canvas.height=window.innerHeight;
-//     ctx.putImageData(imgData,0,0);
-// });
-
-// document.getElementById('clearButton').addEventListener('click',()=>{
-// erese=true
-
-//     // ctx.clearRect(0,0,canvas.width,canvas.height);
-// });
-
 
 
 
