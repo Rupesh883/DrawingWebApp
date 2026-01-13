@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>drawing App</title>
+</head>
+<body>
+  <div class="cover   ">
+    <div class="card flex flex-col  items-center w-80 h-50 p-6 gap-5 rounded-2xl">
+    <h1 class="text-2xl">are you ready to draw</h1>
+      <i class="fa-solid fa-feather animate text-4xl animate-bounce "></i>
+      <button class="w-full start">Yes</button>
+    </div>
+  </div>
+  <div class="controler">
+    <div class=" flex justify-center items-center gap-2">
+ <button id="clearButton" class="w-7 h-7"><i class="fa-solid fa-eraser"></i></button>
+ <input type="range" name="" id="" class="eresarsize" min="0" max="50">
+    </div>
+      <div class="flex justify-center items-center px-4 gap-2">
+        <button class="pen w-7 h-7 "><i class="fa-solid fa-pen"></i></button>
+        <input type="range" name="" id="" class="pensize" min="0" max="50">
+      </div>
+     
+      <div>
+        <input type="color" name="" id="color">
+      </div>
+      <div class="flex justify-center items-center px-4 ">
+        <button class="allclear px-4">Clear All</button>
+      </div>
+     
+  </div>
+  <Canvas id="canvas" width="800" height="600"></Canvas>
+
+
+ <script src="script.js"></script>
+</body>
+</html>
+
